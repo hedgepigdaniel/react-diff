@@ -28,6 +28,6 @@
     "diff": "^1.2.0"
   },
   "devDependencies": {
-    "babel": "^5.1.10"
+    "babel": "5.1.10"
   }
 }
