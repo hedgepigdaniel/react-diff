@@ -4,10 +4,6 @@
   "description": "Highlight differences between inputs",
   "main": "dist/react-diff.cjs.js",
   "module": "dist/react-diff.es.js",
-  "browser": {
-    "./dist/react-diff.cjs.js": "./dist/react-diff.browser.cjs.js",
-    "./dist/react-diff.es.js": "./dist/react-diff.browser.es.js"
-  },
   "scripts": {
     "build": "yarn run build-es && yarn run build-cjs",
     "build-es": "yarn run babel --env-name es lib/react-diff.js -o dist/react-diff.es.js",
